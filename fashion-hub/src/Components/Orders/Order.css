@@ -1,0 +1,49 @@
+.review-items-container{
+
+  height:540px;
+  width:40vw;
+  overflow: scroll;
+  margin-top: 140px;
+  margin-left:10vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.submit-btn{
+  margin-left:25px;
+  
+}
+.review-items-container::-webkit-scrollbar,
+.review-items-container::-webkit-scrollbar-thumb {
+  width: 25px;
+  border-radius: 50%;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+  color: #ffc8a3;
+  height:50px;
+}
+
+.review-items-container::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 5px;
+
+}
+@media screen and (max-width: 950px){
+  .review-items-container{
+    width:45vw;
+    margin-left:5vw;
+  }
+   
+  }
+  @media screen and (max-width: 690px){
+    .review-items-container{
+      width:70vw;
+      height:440px;
+      margin-left:15vw;
+      margin-top: 110px;
+    }
+  }
+  @media screen and (max-width: 430px){
+    .review-items-container{
+      width:90vw;
+      height:440px;
+      margin-left:3vw;
+    }
+  }

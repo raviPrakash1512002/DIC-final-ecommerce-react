@@ -1,0 +1,131 @@
+#Search{
+    position: relative;
+}
+#Search input[type="text"]{
+    width:20vw;
+    height:30px;
+    margin-top: 10px;
+    margin-left:70px;
+    font-size:1rem;
+    padding-left:10px;
+    border:0.5px solid black;
+    border-radius: 10px;
+}
+#iconsearch{
+    font-size: 1.7rem;
+    position: absolute;
+    top:13px;
+    right:10px;
+   cursor: pointer;
+   color:rgb(47, 45, 44);
+
+}
+#Search input[type="text"]:focus{
+    outline-style: none;
+}
+@media screen and (max-width: 950px){
+    #Search input[type="text"]{
+        width:20vw;
+        height:25px;
+        margin-top: 10px;
+        margin-left:50px;
+        font-size:0.6rem;
+        padding-left:4px;
+        border:0.5px solid black;
+        border-radius: 10px;
+    }
+    #iconsearch{
+        font-size: 1.3rem;
+        position: absolute;
+        top:13px;
+        right:10px;
+       cursor: pointer;
+       color:rgb(47, 45, 44);
+    
+    }
+}
+
+@media screen and (max-width: 690px){
+    #Search input[type="text"]{
+        width:22vw;
+        height:25px;
+
+        margin-left:40px;
+        font-size:0.6rem;
+        padding-left:2px;
+        border:0.5px solid black;
+        border-radius: 10px;
+    }
+    #iconsearch{
+        font-size: 1.2rem;
+        position: absolute;
+        top:13px;
+        right:10px;
+       cursor: pointer;
+       color:rgb(47, 45, 44);
+    
+    }
+}
+@media screen and (max-width: 530px){
+    #Search input[type="text"]{
+        width:20vw;
+        height:25px;
+
+        margin-left:20px;
+        font-size:0.6rem;
+        padding-left:2px;
+        border:0.5px solid black;
+        border-radius: 10px;
+    }
+    #iconsearch{
+        font-size: 1.2rem;
+        position: absolute;
+        top:13px;
+        right:10px;
+       cursor: pointer;
+       color:rgb(47, 45, 44);
+    
+    }
+}
+@media screen and (max-width: 430px){
+    #Search input[type="text"]{
+        width:20vw;
+        height:20px;
+
+        margin-left:20px;
+        font-size:0.6rem;
+        padding-left:2px;
+        border:0.5px solid black;
+        border-radius: 10px;
+    }
+    #iconsearch{
+        font-size: 0.8rem;
+        position: absolute;
+        top:15px;
+        right:10px;
+       cursor: pointer;
+       color:rgb(47, 45, 44);
+    
+    }
+}
+@media screen and (max-width: 370px){
+    #Search input[type="text"]{
+        width:20vw;
+        height:19px;
+
+        margin-left:-12px;
+        font-size:0.6rem;
+        padding-left:2px;
+        border:0.5px solid black;
+        border-radius: 10px;
+    }
+    #iconsearch{
+        font-size: 0.8rem;
+        position: absolute;
+        top:15px;
+        right:10px;
+       cursor: pointer;
+       color:rgb(47, 45, 44);
+    
+    }
+}

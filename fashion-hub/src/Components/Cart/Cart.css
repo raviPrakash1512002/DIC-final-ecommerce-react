@@ -1,0 +1,23 @@
+
+.cart{
+    position:absolute;
+    top:240px;
+    right:9vw;
+    width:30%;
+
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.cart h2{
+    text-align: center;
+}
+@media screen and (max-width: 690px){
+    .cart{
+        top:600px;
+        right:6vw;
+        width:80%;
+    
+        padding: 30px 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+}
